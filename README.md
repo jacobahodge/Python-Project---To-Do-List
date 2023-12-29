@@ -5,10 +5,10 @@ Create a command-line to-do list application where users can add tasks, mark the
 
 Features to Implement:
 - Task Addition: Allow users to add tasks to the to-do list.
-- Task Completion: Enable users to mark tasks as completed.
+- __Task Completion: Enable users to mark tasks as completed.__
 - Task Removal: Allow users to remove completed tasks.
-- Viewing Tasks: Provide an option to display all tasks in the to-do list.
-- Storage: Implement simple data storage to maintain the to-do list between program runs (using text files or a simple database).
+- List Tasks: Provide an option to display all tasks in the to-do list.
+- __Storage: Implement simple data storage to maintain the to-do list between program runs (using text files or a simple database)__.
 
 Example Implementation Steps:
 Basic Structure: 
