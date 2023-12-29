@@ -28,7 +28,8 @@ def deleteTask():
 if __name__ == "__main__":
 ###Create a loop to run the app
     print("Welcome to my first To Do List app")
-while iterations = 0 :
+iterations = 0
+while iterations < 5 :
     print("\n")
     print("Please select on of the options")
     print("-------------------------------")
