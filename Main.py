@@ -5,7 +5,7 @@ def addTask():
   task.append(task)
   print(f"Task '{task}' has been added to the list")
 
-def listTask
+def listTask():
   if not tasks:
     print("There are no tasks currently")
 else:
@@ -14,13 +14,14 @@ else:
     print(f"Tasks #{index}. {task}")
 
 def deleteTask():
-  listTasks = 
+  listTasks()
   try: 
   taskToDelete = int(input("Enter the number: "))
     if taskToDelete < len(tasks) and >=0:
       tasks.pop(taskToDelete)
       print(f"Task {taskToDelete} has been removed")
-      else: print(f"Task #{taskToDelete} was not found")
+    else: 
+        print(f"Task #{taskToDelete} was not found")
   except: 
     print("Invalid input.") 
 
