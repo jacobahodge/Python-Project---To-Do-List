@@ -2,7 +2,7 @@ tasks = []
 
 def addTask():
     task = input ("Please enter a task: ")
-    task.append(task)
+    tasks.append(task)
     print(f"Task '{task}' has been added to the list")
 
 def listTask():
@@ -28,7 +28,7 @@ def deleteTask():
 if __name__ == "__main__":
 ###Create a loop to run the app
     print("Welcome to my first To Do List app")
-while True:
+while iterations = 0 :
     print("\n")
     print("Please select on of the options")
     print("-------------------------------")
@@ -51,3 +51,5 @@ else:
     print("Invalid input. Please try again")
 
 print("Goodbye!")
+
+iterations += 1 #increment the counter after each run
