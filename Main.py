@@ -38,19 +38,21 @@ while iterations < 5 :
     print("3. List tasks")
     print("4. Quit")
 
-choice = input("Enter your choice: ")
+    choice = input("Enter your choice: ")
 
-if (choice == "1"):
-    addTask()
-elif (choice == "2"):
-    deleteTask()
-elif (choice == "3"):
-    listTasks()
-elif (choice == "4"):
-    break
-else:
-    print("Invalid input. Please try again")
+    if (choice == "1"):
+        addTask()
+    elif (choice == "2"):
+        deleteTask()
+    elif (choice == "3"):
+        listTasks()
+    elif (choice == "4"):
+        break
+    else:
+        print("Invalid input. Please try again")
 
 print("Goodbye!")
 
 iterations += 1 #increment the counter after each run
+if iterations >=5:
+    print("Maximum iterations reached")
